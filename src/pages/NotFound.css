@@ -1,0 +1,57 @@
+@media only screen and ( min-width : 1px ) {
+
+  .not-found-container {
+    align-items: center;
+    color: rgb(231, 228, 226);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .not-found-error {
+    font-size: 6rem;
+    margin: 0;
+  }
+
+  .not-found-title {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .not-found-message {
+    margin: 100px auto 0;
+  }
+
+}
+
+@media only screen and ( min-width : 601px ) {
+
+  .not-found-error {
+    font-size: 12rem;
+  }
+
+  .not-found-title {
+    font-size: 4rem;
+  }
+
+  .not-found-message {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  .not-found-error {
+    font-size: 10rem;
+  }
+
+  .not-found-title {
+    font-size: 3.5rem;
+  }
+
+  .not-found-message {
+    font-size: 1.7rem;
+  }
+}

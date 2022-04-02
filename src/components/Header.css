@@ -1,0 +1,64 @@
+@media only screen and ( min-width : 1px ) {
+
+  .header-container {
+    align-items: center;
+    background-color: rgb(13, 14, 15);
+    background-image: url('../images/LOGO_TRYBETUNES.png');
+    background-position-x: center;
+    background-position-y: -25px;
+    background-repeat: no-repeat;
+    background-size: 130px;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  .user-name {
+    color: rgb(144, 154, 179);
+  }
+
+  .nav-container {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-link {
+    color: rgb(144, 154, 179);
+    padding: 2px;
+    text-decoration: none;
+  }
+}
+
+@media only screen and ( min-width : 640px ) {
+
+  .header-container {
+    background-position-y: -35px;
+    background-size: 150px;
+    font-size: 1.2rem;
+    height: 70px;
+  }
+
+  .user-name {
+    margin-left: 5px;
+  }
+
+  .nav-container {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    padding: 8px;
+  }
+
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  .nav-link {
+    padding: 10px;
+  }
+
+}

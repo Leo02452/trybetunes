@@ -1,0 +1,76 @@
+@media only screen and ( min-width : 1px ) {
+
+  .login-form {
+    align-content: center;
+    align-items: center;
+    background-image: url('../images/LOGO_TRYBETUNES.png');
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .login-input, .login-button {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .login-input {
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 55%;
+  }
+
+  .login-button {
+    background-color: rgb(242, 192, 142);
+    font-size: 15px;
+    width: 60%;
+  }
+
+  .login-button:enabled {
+    background-color: rgb(235, 169, 104);
+    color: rgb(30, 54, 64);
+    font-weight: 600;
+  }
+}
+
+@media only screen and ( min-width : 601px ) {
+
+  .login-form {
+    background-size: 250px;
+  }
+
+  .login-input, .login-button {
+    padding: 15px;
+  }
+
+  .login-input {
+    font-size: 15px;
+    width: 350px;
+  }
+
+  .login-button {
+    font-size: 17px;
+    width: 370px;
+  }
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  .login-form {
+    background-size: 350px;
+    justify-content: flex-end;
+  }
+
+  .login-input {
+    font-size: 20px;
+  }
+
+  .login-button {
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+}

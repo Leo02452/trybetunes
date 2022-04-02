@@ -1,0 +1,41 @@
+@media only screen and ( min-width : 1px ) {
+
+  .footer-container {
+    align-items: center;
+    background-color: rgb(13, 14, 15);
+    bottom: 0;
+    color: rgb(144, 154, 179);
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    min-height: 50px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .footer-title {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and ( min-width : 400px ) {
+
+  .footer-title {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and ( min-width : 600px ) {
+
+  .footer-title {
+    font-size: 1.4rem;
+    padding: 20px;
+  }
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  .footer-title {
+    font-size: 1rem;
+  }
+}

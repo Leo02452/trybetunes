@@ -1,0 +1,75 @@
+@media only screen and ( min-width : 1px ) {
+
+  h3 {
+    color: rgb(231, 228, 226);
+    font-size: 1rem;
+    margin-bottom: 3px;
+  }
+
+  .music {
+    align-items: center;
+    display: flex;
+  }
+
+  audio {
+    height: 35px;
+    width: 85%;
+  }
+
+  .fav-icon {
+    color: rgb(231, 228, 226);
+    height: 30px;
+    width: 40px;
+  }
+
+  .loading {
+    color: rgb(231, 228, 226);
+    font-size: 0.7rem;
+  }
+
+  .checkbox-input {
+    display: none;
+  }
+}
+
+@media only screen and ( min-width : 601px ) {
+
+  h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  audio {
+    height: 40px;
+    width: 90%;
+  }
+
+  .fav-icon {
+    height: 35px;
+  }
+
+  .loading {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  audio {
+    height: 45px;
+    width: 95%;
+  }
+
+  .fav-icon {
+    height: 45px;
+    width: 50px;
+  }
+
+  .loading {
+    font-size: 1rem;
+  }
+}

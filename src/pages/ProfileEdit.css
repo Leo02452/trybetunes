@@ -1,0 +1,71 @@
+@media only screen and ( min-width : 1px ) {
+
+  .edit-profile-form {
+    color: rgb(231, 228, 226);
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 90%;
+  }
+
+  .edit-profile-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .edit-profile-input {
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin-top: 7px;
+    padding: 8px;
+  }
+
+  .edit-button-save {
+    background-color: rgb(242, 192, 142);
+    border-radius: 8px;
+    font-size: 1rem;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+  }
+
+  .edit-button-save:enabled {
+    background-color: rgb(235, 169, 104);
+    color: rgb(30, 54, 64);
+    font-weight: 600;
+  }
+}
+
+@media only screen and ( min-width : 601px ) {
+
+  .edit-profile-form {
+    width: 80%;
+  }
+
+  .edit-profile-label {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  .edit-profile-input {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding: 15px;
+  }
+
+  .edit-button-save {
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 15px;
+    width: 65%;
+  }
+}
+
+@media only screen and ( min-width : 1024px ) {
+
+  .edit-profile-form {
+    width: 70%;
+  }
+}
