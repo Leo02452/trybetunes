@@ -9,6 +9,8 @@ Essa foi a primeira aplicação que eu pude colocar em prática os conceitos de 
 ![gif de demonstração da página](./mobile.gif)
 
 ---
-## Link para o deploy
+## Rodar a aplicação online
+
+## Rodar a aplicação remotamente
 
 
