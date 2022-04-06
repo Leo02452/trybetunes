@@ -41,6 +41,11 @@
     width: 80%;
   }
 
+  .search-result-not-found {
+    color: rgb(231, 228, 226);
+    margin-top: 30px;
+  }
+
   .albuns-container {
     align-items: flex-start;
     display: flex;

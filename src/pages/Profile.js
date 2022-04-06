@@ -38,12 +38,12 @@ class Profile extends Component {
                 />
               </div>
               <div className="user-info">
-                <h4>Name</h4>
-                <span>{ user.name }</span>
-                <h4>Email</h4>
-                <span>{user.email}</span>
-                <h4>About</h4>
-                <span>{user.description}</span>
+                <h4 className="user-title">Name</h4>
+                <span className="user-text">{ user.name }</span>
+                <h4 className="user-title">Email</h4>
+                <span className="user-text">{user.email}</span>
+                <h4 className="user-title">About</h4>
+                <span className="user-text">{user.description}</span>
                 <Link
                   to="/profile/edit"
                   className="edit-profile-link"

@@ -70,13 +70,13 @@ class Search extends Component {
             && (
               <>
                 <span className="search-result-title">
-                  Found albuns of:
+                  Found albuns from:
                   {' '}
                   { searchedArtist }
                 </span>
                 <section className="albuns-container">
                   { albums.length === 0
-                    ? 'Nenhum álbum foi encontrado'
+                    ? <span className="search-result-not-found">No albuns found</span>
                     : (
                       albums.map((album) => (
                         <Link

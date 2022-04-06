@@ -31,11 +31,11 @@
     width: 90%;
   }
 
-  h4 {
+  .user-title {
     margin-bottom: 8px;
   }
 
-  span {
+  .user-text {
     margin-bottom: 10px;
   }
 
@@ -69,11 +69,11 @@
     width: 75%;
   }
 
-  h4 {
+  .user-title {
     font-size: 1.8rem;
   }
 
-  span {
+  .user-text {
     font-size: 1.6rem;
   }
 
@@ -108,13 +108,18 @@
     margin: 0 10px 0 30px;
   }
 
-  h4 {
+  .user-title {
+    font-size: 1.5rem;
     margin-top: 20px;
+  }
+
+  .user-text {
+    font-size: 1.4rem;
   }
 
   .edit-profile-link {
     align-self: flex-start;
-    font-size: 1.8rem;
-    width: 250px;
+    font-size: 1.5rem;
+    width: 200px;
   }
 }
